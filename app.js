@@ -5,7 +5,7 @@ var express = require("express"),
     mongoose = require('mongoose');
 
 // Connection to DB
-mongoose.connect('mongodb://userVC2:ywWE370Rwj0ABwMb@mongodb.terpel-poc.svc.cluster.local:27017/proxyreversobd', function(err, res) {
+mongoose.connect('mongodb://userMM3:7tUvkc88Q1vIMALN@mongodb.poc-terpel.svc.cluster.local:27017/proxyreversobd', function(err, res) {
     console.log(`Connected to Database proxyreversobd ${err}`);
 });
 
